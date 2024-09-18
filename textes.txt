@@ -1,0 +1,177 @@
+charizard:
+weigth=199.5 height=67.0 atk=8 def=8
+slowbro:
+Ходы  After
+You Aqua Tail Avalanche Block Body Slam Brine Counter Dive Double-Edge
+Drain Punch Dynamicpunch Focus Punch Foul Play Fury Cutter Ice Punch
+Icy Wind Iron Defense Iron Tail Magic Coat Mega Kick Mega Punch
+Mud-Slap Recycle Role Play Seismic Toss Signal Beam Skill Swap Snore
+Swift Trick Wonder Room Zen Headbutt
+doduo:
+Развитые способности
+Tangled Feet
+simisage:
+Живет  Forest Rainforest
+medicham:
+Способности
+Focus Mind Mold Pure Power Inner Focus
+elekid:
+Развитые способности
+Vital Spirit
+cranidos:
+Тип диеты  Herbivore
+scizor:
+Развитые
+способности  Light Metal Steadfast
+rufflet:
+Тип диеты
+Carnivore
+deino:
+Способности  Dark Art Pure Blooded Hustle
+Klutz
+umbreon:
+Ходы Body Slam Covet Dark Pulse Double-Edge Foul Play
+Heal Bell Helping Hand Hyper Voice Iron Tail Last Resort Mud-Slap Role
+Play Sleep Talk Snatch Snore Spite Sucker Punch Swift Wonder
+Room
+omastar:
+Ходы Ancientpower Bind Body Slam Dive Double-Edge Earth
+Power Icy Wind Iron Defense Knock Off Mud-Slap Rollout Seismic Toss
+Sleep Talk Snore Stealth Rock Water Pulse
+ampharos:
+Ходы After You
+Body Slam Counter Defense Curl Double-Edge Dynamicpunch Fire Punch‡
+Focus Punch Heal Bell Iron Tail Magnet Rise Mega Kick Mega Punch
+Outrage Seismic Toss Shock Wave Signal Beam Sleep Talk Snore Swift
+Thunderpunch
+magmortar:
+weigth=149.9 height=63.0 atk=10
+def=7
+houndoom:
+Развитые способности  Unnerve
+wailmer:
+Ходы  Avalanche
+Bounce Dive Hyper Voice Icy Wind Rollout Sleep Talk Snore Zen
+Headbutt
+shelmet:
+Способности Swarm Hydration Shell.
+Armor
+onix:
+Развитые способности Weak Armor
+espeon:
+Тип покемона
+PSYCHIC NONE
+seaking:
+Тип диеты  Herbivore
+poliwhirl:
+Способности
+Torrent Damp Water Absorb
+chandelurе6:
+Тип диеты
+Nullivore
+feraligatr6:
+weigth=195.8 height=91.0 atk=11
+def=10
+crustle:
+satk 7 sdef=8 spd=5
+ampharos:
+Живет  Grassland
+Mountain
+purrloin:
+weigth=22.3 height=16.0 atk=5
+def=4
+hypno:
+Способности  Mind Mold Insomnia Forewarn
+crawdaunt:
+Тип
+покемона  WATER DARK
+shellder:
+Тип диеты  Herbivore
+hoothoot:
+Живет
+Forest
+beedrill:
+weigth=65.0 height=39.0 atk=8 def=4
+mantyke:
+Развитые
+способности  Water Veil
+kirlia:
+Способности  Confusion Double Team
+Teleport Lucky Chant Magical Leaf Heal Pulse Calm Mind Psychic
+Imprison Future Sight Charm Hypnosis Dream Eater Stored
+Power
+stunky:
+Способности  Venom Dark Art Stench
+Aftermath
+cubchoo:
+weigth=18.7 height=20.0 atk=7 def=4
+mantine:
+satk=8
+sdef=14 spd=7
+chimchar:
+Способности  Leer Scratch Ember Taunt Fury
+Swipes Flame Wheel Nasty Plot Torment Facade Fire Spin Acrobatics
+Slack Off Flamethrower
+shelmet:
+Развитые способности
+Overcoat
+remoraid:
+satk 7 sdef=4 spd=7
+jolteon4:
+Живет  Forest
+Urban
+tangrowth:
+Способности  Sleep Powder Vine Whip Absorb
+Poisonpowder Bind Growth Mega Drain Knock Off Stun Spore Natural Gift
+Giga Drain Ancientpower Slam Tickle Wring Out Power Whip
+Block
+camerupt:
+Способности  Ember Magnitude Focus Energy Flame Burst
+Amnesia Lava Plume Earth Power Curse Take Down Rock Slide Yawn
+Earthquake Eruption Fissure
+weezing:
+Развитые способности
+Aftermath
+torchic:
+Способности  Blaze Klutz Moxie
+dustox:
+Возможности
+Overland=2 Sky=9 Jump=3 Power=3 Intelligence=4
+Sinker=0
+hippowdon:
+Возможности  Overland=6 Surface=6 Underwater=4
+Burrow6=0 Jump=3 Power=4 Intelligence=4
+Groundshaper=0
+pineco:
+weigth=15.9 height=24.0 atk=7
+def=9
+gallade:
+satk=7 sdef=12 spd=8
+gengar:
+Способности  Haunt Venom
+Levitate Intimidate
+cyndaquil:
+weigth=17.4 height=20.0 atk=5 def=4
+arbok:
+Тип покемона  POISON NONE
+darmanitan:
+Способности
+Rollout Incinerate Rage Fire Fang Headbutt Swagger Facade Fire Punch
+Work Up Thrash Belly Drum Flare Blitz Hammer Arm Taunt Superpower
+Overheat
+lickitung:
+weigth=144.4 height=47.0 atk=6
+def=8
+samurott:
+satk=8 sdef=7 spd=7
+donphan:
+satk 6 sdef=6
+spd=5
+whirlpede:
+Живет  Forest
+lanturn:
+Ходы  Aqua Tail Bounce Brine
+Dive Double-Edge Heal Bell Icy Wind Shock Wave Signal Beam Snore
+Sucker Punch Water Pulse
+pineco:
+weigth=15.9 height=24.0 atk=7 def=9
