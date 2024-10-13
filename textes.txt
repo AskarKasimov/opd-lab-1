@@ -66,7 +66,7 @@ seaking:
 poliwhirl:
 Способности
 Torrent Damp Water Absorb
-chandelurе6:
+chandelure6:
 Тип диеты
 Nullivore
 feraligatr6:

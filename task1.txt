@@ -1,116 +1,116 @@
 +--archeops4 каталог
-|   +--charizard файл
-|   +--trapinch каталог
-|   |   +--eelektross каталог
-|   |   |   +--staryu каталог
-|   |   |   +--arbok каталог
-|   |   +--sealeo каталог
-|   |   |   +--slowbro файл
-|   |   |   +--doduo файл
-|   |   |   +--abomasnow каталог
-|   |   |   +--simisage файл
-|   |   +--gible каталог
-|   |   |   +--steelix каталог
-|   |   |   +--rapidash каталог
-|   |   |   +--medicham файл
-|   |   |   +--elekid файл
-|   |   |   +--cranidos файл
-|   |   +--scizor файл
-|   |   +--rufflet файл
-|   |   +--deino файл
-|   |   +--palpitoad каталог
-|   |   |   +--huntail каталог
-|   |   |   +--umbreon файл
-|   |   |   +--omastar файл
-|   +--sandshrew каталог
-|   |   +--persian каталог
-|   |   |   +--glalie каталог
-|   |   |   +--blastoise каталог
-|   |   +--ampharos файл
-|   |   +--magmortar файл
-|   |   +--exploud каталог
-|   |   |   +--spoink каталог
-|   |   |   +--lickilicky каталог
-|   |   |   +--houndoom файл
-|   |   |   +--dustox каталог
-|   |   |   +--wailmer файл
-|   |   |   +--shelmet файл
-|   |   |   +--onix файл
-|   +--espeon файл
-|   +--seaking файл
-|   +--poliwhirl файл
-+--chandelurе6 файл
+|   +--archeops4/charizard файл
+|   +--archeops4/trapinch каталог
+|   |   +--archeops4/trapinch/eelektross каталог
+|   |   |   +--archeops4/trapinch/eelektross/staryu каталог
+|   |   |   +--archeops4/trapinch/eelektross/arbok каталог
+|   |   +--archeops4/trapinch/sealeo каталог
+|   |   |   +--archeops4/trapinch/sealeo/slowbro файл
+|   |   |   +--archeops4/trapinch/sealeo/doduo файл
+|   |   |   +--archeops4/trapinch/sealeo/abomasnow каталог
+|   |   |   +--archeops4/trapinch/sealeo/simisage файл
+|   |   +--archeops4/trapinch/gible каталог
+|   |   |   +--archeops4/trapinch/gible/steelix каталог
+|   |   |   +--archeops4/trapinch/gible/rapidash каталог
+|   |   |   +--archeops4/trapinch/gible/medicham файл
+|   |   |   +--archeops4/trapinch/gible/elekid файл
+|   |   |   +--archeops4/trapinch/gible/cranidos файл
+|   |   +--archeops4/trapinch/scizor файл
+|   |   +--archeops4/trapinch/rufflet файл
+|   |   +--archeops4/trapinch/deino файл
+|   |   +--archeops4/trapinch/palpitoad каталог
+|   |   |   +--archeops4/trapinch/palpitoad/huntail каталог
+|   |   |   +--archeops4/trapinch/palpitoad/umbreon файл
+|   |   |   +--archeops4/trapinch/palpitoad/omastar файл
+|   +--archeops4/sandshrew каталог
+|   |   +--archeops4/sandshrew/persian каталог
+|   |   |   +--archeops4/sandshrew/persian/glalie каталог
+|   |   |   +--archeops4/sandshrew/persian/blastoise каталог
+|   |   +--archeops4/sandshrew/ampharos файл
+|   |   +--archeops4/sandshrew/magmortar файл
+|   |   +--archeops4/sandshrew/exploud каталог
+|   |   |   +--archeops4/sandshrew/exploud/spoink каталог
+|   |   |   +--archeops4/sandshrew/exploud/lickilicky каталог
+|   |   |   +--archeops4/sandshrew/exploud/houndoom файл
+|   |   |   +--archeops4/sandshrew/exploud/dustox каталог
+|   |   |   +--archeops4/sandshrew/exploud/wailmer файл
+|   |   |   +--archeops4/sandshrew/exploud/shelmet файл
+|   |   |   +--archeops4/sandshrew/exploud/onix файл
+|   +--archeops4/espeon файл
+|   +--archeops4/seaking файл
+|   +--archeops4/poliwhirl файл
++--chandelure6 файл
 +--feraligatr6 файл
 +--houndoom1 каталог
-|   +--crawdaunt каталог
-|   |   +--zoroark каталог
-|   |   |   +--infernape каталог
-|   |   |   +--crustle файл
-|   |   |   +--ampharos файл
-|   |   |   +--samurott каталог
-|   |   |   +--purrloin файл
-|   |   +--sudowoodo каталог
-|   |   |   +--hypno файл
-|   |   |   +--crawdaunt файл
-|   |   |   +--teddiursa каталог
-|   |   +--whiscash каталог
-|   |   |   +--shellder файл
-|   |   |   +--hoothoot файл
-|   |   |   +--xatu каталог
-|   |   |   +--ninjask каталог
-|   |   +--beedrill файл
-|   |   +--mantyke файл
-|   |   +--kirlia файл
-|   +--stunky файл
-|   +--hippopotas каталог
-|   |   +--octillery каталог
-|   |   |   +--tirtouga каталог
-|   |   |   +--cubchoo файл
-|   |   |   +--weepinbell каталог
-|   |   |   +--mantine файл
-|   |   |   +--chimchar файл
-|   |   +--camerupt каталог
-|   |   |   +--shelmet файл
-|   |   |   +--electrike каталог
-|   |   |   +--remoraid файл
-|   |   |   +--claydol каталог
+|   +--houndoom1/crawdaunt каталог
+|   |   +--houndoom1/crawdaunt/zoroark каталог
+|   |   |   +--houndoom1/crawdaunt/zoroark/infernape каталог
+|   |   |   +--houndoom1/crawdaunt/zoroark/crustle файл
+|   |   |   +--houndoom1/crawdaunt/zoroark/ampharos файл
+|   |   |   +--houndoom1/crawdaunt/zoroark/samurott каталог
+|   |   |   +--houndoom1/crawdaunt/zoroark/purrloin файл
+|   |   +--houndoom1/crawdaunt/sudowoodo каталог
+|   |   |   +--houndoom1/crawdaunt/sudowoodo/hypno файл
+|   |   |   +--houndoom1/crawdaunt/sudowoodo/crawdaunt файл
+|   |   |   +--houndoom1/crawdaunt/sudowoodo/teddiursa каталог
+|   |   +--houndoom1/crawdaunt/whiscash каталог
+|   |   |   +--houndoom1/crawdaunt/whiscash/shellder файл
+|   |   |   +--houndoom1/crawdaunt/whiscash/hoothoot файл
+|   |   |   +--houndoom1/crawdaunt/whiscash/xatu каталог
+|   |   |   +--houndoom1/crawdaunt/whiscash/ninjask каталог
+|   |   +--houndoom1/crawdaunt/beedrill файл
+|   |   +--houndoom1/crawdaunt/mantyke файл
+|   |   +--houndoom1/crawdaunt/kirlia файл
+|   +--houndoom1/stunky файл
+|   +--houndoom1/hippopotas каталог
+|   |   +--houndoom1/hippopotas/octillery каталог
+|   |   |   +--houndoom1/hippopotas/octillery/tirtouga каталог
+|   |   |   +--houndoom1/hippopotas/octillery/cubchoo файл
+|   |   |   +--houndoom1/hippopotas/octillery/weepinbell каталог
+|   |   |   +--houndoom1/hippopotas/octillery/mantine файл
+|   |   |   +--houndoom1/hippopotas/octillery/chimchar файл
+|   |   +--houndoom1/hippopotas/camerupt каталог
+|   |   |   +--houndoom1/hippopotas/camerupt/shelmet файл
+|   |   |   +--houndoom1/hippopotas/camerupt/electrike каталог
+|   |   |   +--houndoom1/hippopotas/camerupt/remoraid файл
+|   |   |   +--houndoom1/hippopotas/camerupt/claydol каталог
 +--jolteon4 файл
 +--magmortar0 каталог
-|   +--tangrowth файл
-|   +--lileep каталог
-|   |   +--hariyama каталог
-|   |   |   +--porygon каталог
-|   |   |   +--crobat каталог
-|   |   |   +--weedle каталог
-|   |   |   +--sentret каталог
-|   |   +--sneasel каталог
-|   |   |   +--cleffa каталог
-|   |   |   +--camerupt файл
-|   |   |   +--weezing файл
-|   +--venipede каталог
-|   |   +--torchic файл
-|   |   +--dustox файл
-|   |   +--cottonee каталог
-|   |   |   +--ralts каталог
-|   |   |   +--chimecho каталог
-|   |   |   +--hippowdon файл
-|   |   |   +--boldore каталог
-|   +--pineco файл
-|   +--spheal каталог
-|   |   +--lotad каталог
-|   |   |   +--gallade файл
-|   |   |   +--gengar файл
-|   |   |   +--voltorb каталог
-|   |   |   +--cyndaquil файл
-|   |   +--horsea каталог
-|   |   |   +--arbok файл
-|   |   |   +--pignite каталог
-|   |   |   +--darmanitan файл
-|   |   |   +--lickitung файл
-|   |   |   +--vanillish каталог
-|   |   +--venipede каталог
-|   |   |   +--samurott файл
-|   |   |   +--donphan файл
-|   |   |   +--whirlpede файл
-|   |   |   +--lanturn файл
-|   |   +--pineco файл
+|   +--magmortar0/tangrowth файл
+|   +--magmortar0/lileep каталог
+|   |   +--magmortar0/lileep/hariyama каталог
+|   |   |   +--magmortar0/lileep/hariyama/porygon каталог
+|   |   |   +--magmortar0/lileep/hariyama/crobat каталог
+|   |   |   +--magmortar0/lileep/hariyama/weedle каталог
+|   |   |   +--magmortar0/lileep/hariyama/sentret каталог
+|   |   +--magmortar0/lileep/sneasel каталог
+|   |   |   +--magmortar0/lileep/sneasel/cleffa каталог
+|   |   |   +--magmortar0/lileep/sneasel/camerupt файл
+|   |   |   +--magmortar0/lileep/sneasel/weezing файл
+|   +--magmortar0/venipede каталог
+|   |   +--magmortar0/venipede/torchic файл
+|   |   +--magmortar0/venipede/dustox файл
+|   |   +--magmortar0/venipede/cottonee каталог
+|   |   |   +--magmortar0/venipede/cottonee/ralts каталог
+|   |   |   +--magmortar0/venipede/cottonee/chimecho каталог
+|   |   |   +--magmortar0/venipede/cottonee/hippowdon файл
+|   |   |   +--magmortar0/venipede/cottonee/boldore каталог
+|   +--magmortar0/pineco файл
+|   +--magmortar0/spheal каталог
+|   |   +--magmortar0/spheal/lotad каталог
+|   |   |   +--magmortar0/spheal/lotad/gallade файл
+|   |   |   +--magmortar0/spheal/lotad/gengar файл
+|   |   |   +--magmortar0/spheal/lotad/voltorb каталог
+|   |   |   +--magmortar0/spheal/lotad/cyndaquil файл
+|   |   +--magmortar0/spheal/horsea каталог
+|   |   |   +--magmortar0/spheal/horsea/arbok файл
+|   |   |   +--magmortar0/spheal/horsea/pignite каталог
+|   |   |   +--magmortar0/spheal/horsea/darmanitan файл
+|   |   |   +--magmortar0/spheal/horsea/lickitung файл
+|   |   |   +--magmortar0/spheal/horsea/vanillish каталог
+|   |   +--magmortar0/spheal/venipede каталог
+|   |   |   +--magmortar0/spheal/venipede/samurott файл
+|   |   |   +--magmortar0/spheal/venipede/donphan файл
+|   |   |   +--magmortar0/spheal/venipede/whirlpede файл
+|   |   |   +--magmortar0/spheal/venipede/lanturn файл
+|   |   +--magmortar0/spheal/pineco файл

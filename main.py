@@ -1,10 +1,14 @@
 import sys
 import logging
-from task2.main import Content
+from textes import Content
+from task2 import Rights
 
 logging.basicConfig(stream=sys.stdout, level=logging.DEBUG)
 commands = []
-content = Content()
+content = Content("textes.txt")
+rights = Rights("task2.txt")
+files = []
+dirs = []
 
 with open("task1.txt", "r", encoding="utf-8") as file:
     lines = file.readlines()
@@ -16,24 +20,36 @@ with open("task1.txt", "r", encoding="utf-8") as file:
         prev_line = lines[line_index-1]
         prev_name = lines[line_index-1].split()[-2][3:]
 
-        if line_index > 0 and len(prev_line.split()) > len(this_line.split()):
-            commands.append("cd " +
-                            "../" * (len(prev_line.split()) - len(this_line.split())))
-        elif line_index > 0 and len(prev_line.split()) < len(this_line.split()):
-            commands.append(f"cd {prev_name}")
-
         if this_type == "каталог":
+            dirs.append(this_name)
             commands.append(f"mkdir {this_name}")
         elif this_type == "файл":
+            files.append(this_name)
             commands.append(f"touch {this_name}")
             try:
                 commands.append(
-                    f"echo -e '{content.get_content_by_filename(this_name).replace("\n", "\\n")}' > {this_name}")
+                    f"echo -e '{content.get_content_by_filename(this_name.split("/")[-1]).replace("\n", "\\n")}' > {this_name}")
             except KeyError:
-                logging.info(f"File not found: {this_name}")
+                logging.info(f"File content not found: {this_name}")
         else:
             logging.error(f"Unknown type in parsed file: {this_type}")
-            sys.exit()
+
+
+commands.extend([x.strip() for x in open(
+    "hardcode3.sh", "r", encoding="utf-8").readlines()])
+
+# commands.extend([x.strip() for x in open(
+#     "hardcode4.sh", "r", encoding="utf-8").readlines()])
+
+files.sort(key=lambda x: (len(x.split("/")), x), reverse=True)
+for file in files:
+    commands.append(
+        f"chmod {rights.get_rights_by_filename(file.split("/")[-1])} {file}")
+
+dirs.sort(key=lambda x: (len(x.split("/")), x), reverse=True)
+for dir in dirs:
+    commands.append(
+        f"chmod {rights.get_rights_by_filename(dir.split("/")[-1])} {dir}")
 
 with open("solve.sh", "w", encoding="utf-8") as file:
     for command in commands:
