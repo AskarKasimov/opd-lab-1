@@ -27,8 +27,10 @@ with open("task1.txt", "r", encoding="utf-8") as file:
             files.append(this_name)
             commands.append(f"touch {this_name}")
             try:
+                a = content.get_content_by_filename(
+                    this_name.split("/")[-1]).replace("\n", "\\n")
                 commands.append(
-                    f"echo -e '{content.get_content_by_filename(this_name.split("/")[-1]).replace("\n", "\\n")}' >{this_name}")
+                    f"echo -e '{a}' >{this_name}")
             except KeyError:
                 logging.info(f"File content not found: {this_name}")
         else:
@@ -38,18 +40,23 @@ with open("task1.txt", "r", encoding="utf-8") as file:
 commands.extend([x.strip() for x in open(
     "hardcode3.sh", "r", encoding="utf-8").readlines()])
 
-# commands.extend([x.strip() for x in open(
-#     "hardcode4.sh", "r", encoding="utf-8").readlines()])
+commands.extend([x.strip() for x in open(
+    "hardcode4.sh", "r", encoding="utf-8").readlines()])
 
 files.sort(key=lambda x: (len(x.split("/")), x), reverse=True)
 for file in files:
+    a = rights.get_rights_by_filename(file.split("/")[-1])
     commands.append(
-        f"chmod {rights.get_rights_by_filename(file.split("/")[-1])} {file}")
+        f"chmod {a} {file}")
 
 dirs.sort(key=lambda x: (len(x.split("/")), x), reverse=True)
 for dir in dirs:
+    a = rights.get_rights_by_filename(dir.split("/")[-1])
     commands.append(
-        f"chmod {rights.get_rights_by_filename(dir.split("/")[-1])} {dir}")
+        f"chmod {a} {dir}")
+
+commands.extend([x.strip() for x in open(
+    "hardcode5.sh", "r", encoding="utf-8").readlines()])
 
 with open("solve.sh", "w", encoding="utf-8") as file:
     for command in commands:

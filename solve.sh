@@ -194,6 +194,27 @@ rm -rf houndoom1/stunkyferaligatr && cp feraligatr6 houndoom1/stunkyferaligatr  
 cp feraligatr6 houndoom1/crawdaunt/whiscash/xatu                                                                                                     # скопировать файл feraligatr6 в директорию houndoom1/crawdaunt/whiscash/xatu
 cp -r houndoom1 /tmp && cp -r /tmp/houndoom1 houndoom1/hippopotas/octillery/tirtouga                                                                                              # скопировать рекурсивно директорию houndoom1 в директорию houndoom1/hippopotas/octillery/tirtouga
 ln -s magmortar0 Copy_53                                                                                                                             # создать символическую ссылку c именем Copy_53 на директорию magmortar0 в каталоге lab0
+# !/bin/bash
+cd /home/studs/s466140/lab0
+wc -l magmortar0/* 2>/dev/null | grep -v 'total' >/tmp/line_counts.txt # Подсчитать количество строк содержимого файлов в директории magmortar0, результат записать в файл в директории /tmp, подавить вывод ошибок доступа
+ls -laR . | grep 'ru' 2>/dev/null | sort -r | tail -n 4 # Вывести четыре последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0, содержащих строку "ru", список отсортировать по имени z->a, подавить вывод ошибок доступа
+grep -i "po" houndoom1/* 2>/dev/null # Вывести содержимое файлов в директории houndoom1, оставить только строки, содержащие "po", регистр символов игнорировать, подавить вывод ошибок доступа
+ls -l archeops4 2>&1 | sort -k2,2nr # Вывести список имен и атрибутов файлов в директории archeops4, список отсортировать по убыванию количества жестких ссылок, добавить вывод ошибок доступа в стандартный поток вывода
+wc -m pineco gallade gengar cyndaquil arbok darmanitan lickitung samurott donphan whirlpede 2>&1 | sort -n # Подсчитать количествnо символов содержимого файлов: pineco, gallade, gengar, cyndaquil, arbok, darmanitan, lickitung, samurott, donphan, whirlpede, отсортировать вывод по увеличению количества, добавить вывод ошибок доступа в стандартный поток вывода
+ls -lt ./m* | tail -n 4 # Вывести четыре последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0, начинающихся на символ 'm', список отсортировать по убыванию даты изменения записи о файле, ошибки доступа не подавлять и не перенаправлять
+ls -ltu $(grep -rl "tu" .) # Вывести рекурсивно список имен и атрибутов файлов в директории lab0, содержащих строку "tu", список отсортировать по убыванию даты доступа к файлу, ошибки доступа не подавлять и не перенаправлять
+cat ./*w 2>a | sort # Рекурсивно вывести содержимое файлов с номерами строк из директории lab0, имя которых заканчивается на 'w', строки отсортировать по имени z- добавить вывод ошибок доступа в стандартный поток вывода >a,
+ls -lR . | grep '^d' | sort -k2,2nr # Вывести рекурсивно список имен и атрибутов файлов в директории lab0, начинающихся на символ 'd', список отсортировать по убыванию количества жестких ссылок, ошибки доступа не подавлять и не перенаправлять
+ls -laR lab0 | grep 'un' 2>/tmp/errors.log | sort -k6,7 # Вывести рекурсивно список имен и атрибутов файлов в директории lab0, содержащих строку "un", список отсортировать по возрастанию даты изменения записи о файле, ошибки доступа перенаправить в файл в директории /tmp
+ls -ltR ./*t | tail -n 3 # Вывести три последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0, заканчивающихся на символ 't', список отсортировать по убыванию даты модификации файла, ошибки доступа не подавлять и не перенаправлять
+grep -n -v "Ven" camerupt weezing torchic dustox hippowdon pineco gallade gengar cyndaquil arbok 2>> /tmp/errors.log # Вывести содержимое файлов: camerupt, weezing, torchic, dustox, hippowdon, pineco, gallade, gengar, cyndaquil, arbok с номерами строк, исключить строки, содержащие "Ven", ошибки доступа перенаправить в файл в директории /tmp
+grep -v "y$" chandelure6 # Вывести содержимое файла chandelure6, исключить строки, заканчивающиеся на 'y', ошибки доступа не подавлять и не перенаправлять
+cat lab0/b* 2>/dev/null | sort # Рекурсивно вывести содержимое файлов с номерами строк из директории lab0, имя которых начинается на 'b', строки отсортировать по имени a- подавить вывод ошибок доступа >z,
+grep -i -n 'ght' -v magmortar houndoom wailmer shelmet onix 2>/dev/null # Вывести содержимое файлов: magmortar, houndoom, wailmer, shelmet, onix с номерами строк, исключить строки, содержащие "ght", регистр символов игнорировать, подавить вывод ошибок доступа
+grep -i -n -v 'E$' archeops4/* 2>&1 # Вывести содержимое файлов с номерами строк в директории archeops4, исключить строки, заканчивающиеся на 'E', регистр символов игнорировать, добавить вывод ошибок доступа в стандартный поток вывода
+ls -lR . | grep -i 'h$' 2>/tmp/errors.log | sort -k2,2nr | tail -n 2 # Вывести два первых элемента рекурсивного списка имен и атрибутов файлов в директории lab0, заканчивающихся на символ 'h', список отсортировать по убыванию количества жестких ссылок, ошибки доступа перенаправить в файл в директории /tmp
+cat houndoom1/* 2> z | sort # Вывести содержимое файлов в директории houndoom1, строки отсортировать по имени a- подавить вывод ошибок доступа >z,
+ls -l $(grep -rl 'un' lab0) 2>/tmp/errors.log | sort -k6,7 # Вывести рекурсивно список имен и атрибутов файлов в директории lab0, содержащих строку "un", список отсортировать по возрастанию даты изменения записи о файле, ошибки доступа перенаправить в файл в директории /tmp
 chmod 006 magmortar0/venipede/cottonee/hippowdon
 chmod 664 magmortar0/spheal/venipede/whirlpede
 chmod 622 magmortar0/spheal/venipede/samurott
@@ -310,3 +331,13 @@ chmod 555 archeops4/sandshrew
 chmod 576 magmortar0
 chmod 524 houndoom1
 chmod 777 archeops4
+chmod 600 jolteon4
+rm -f jolteon4
+chmod 600 lab0/archeops4/trapinch/rufflet
+rm -f lab0/archeops4/trapinch/rufflet
+rm -f Copy_34 Copy_89 Copy_53
+rm -rf lab0/archeops4/sandshrew/exploud/shelmetjolte*
+chmod 600 magmortar0
+rm -rf magmortar0
+chmod 600 lab0/magmortar0/venipede/cottonee/ralts
+rm -rf lab0/magmortar0/venipede/cottonee/ralts
