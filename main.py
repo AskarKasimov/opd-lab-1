@@ -28,7 +28,7 @@ with open("task1.txt", "r", encoding="utf-8") as file:
             commands.append(f"touch {this_name}")
             try:
                 commands.append(
-                    f"echo -e '{content.get_content_by_filename(this_name.split("/")[-1]).replace("\n", "\\n")}' > {this_name}")
+                    f"echo -e '{content.get_content_by_filename(this_name.split("/")[-1]).replace("\n", "\\n")}' >{this_name}")
             except KeyError:
                 logging.info(f"File content not found: {this_name}")
         else:
