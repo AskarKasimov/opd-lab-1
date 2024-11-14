@@ -37,10 +37,10 @@ with open("task1.txt", "r", encoding="utf-8") as file:
             logging.error(f"Unknown type in parsed file: {this_type}")
 
 
-commands.extend([x.strip() for x in open(
+commands.extend([x.strip()[:x.find("#")] for x in open(
     "hardcode3.sh", "r", encoding="utf-8").readlines()])
 
-commands.extend([x.strip() for x in open(
+commands.extend([x.strip()[:x.find("#")] for x in open(
     "hardcode4.sh", "r", encoding="utf-8").readlines()])
 
 files.sort(key=lambda x: (len(x.split("/")), x), reverse=True)
@@ -59,5 +59,6 @@ commands.extend([x.strip() for x in open(
     "hardcode5.sh", "r", encoding="utf-8").readlines()])
 
 with open("solve.sh", "w", encoding="utf-8") as file:
+    file.write("# !/bin/bash\n")
     for command in commands:
         file.write(command + "\n")

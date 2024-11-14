@@ -1,3 +1,4 @@
+# !/bin/bash
 mkdir archeops4
 touch archeops4/charizard
 echo -e 'weigth=199.5 height=67.0 atk=8 def=8' >archeops4/charizard
@@ -172,49 +173,48 @@ touch magmortar0/spheal/venipede/lanturn
 echo -e 'Ходы  Aqua Tail Bounce Brine\nDive Double-Edge Heal Bell Icy Wind Shock Wave Signal Beam Snore\nSucker Punch Water Pulse' >magmortar0/spheal/venipede/lanturn
 touch magmortar0/spheal/pineco
 echo -e 'weigth=15.9 height=24.0 atk=7 def=9' >magmortar0/spheal/pineco
-cd /home/studs/s466140/lab0
-cp chandelure6 magmortar0/spheal                                                                                                                     # скопировать файл chandelure6 в директорию magmortar0/spheal
-ln jolteon4 archeops4/sandshrew/exploud/shelmetjolteon                                                                                               # cоздать жесткую ссылку для файла jolteon4 с именем archeops4/sandshrew/exploud/shelmetjolteon
-ln -s jolteon4 houndoom1/hippopotas/camerupt/remoraidjolteon                                                                                         # cоздать символическую ссылку для файла jolteon4 с именем houndoom1/hippopotas/camerupt/remoraidjolteon
-cp -r archeops4 magmortar0/lileep/sneasel/cleffa                                                                                                     # скопировать рекурсивно директорию archeops4 в директорию magmortar0/lileep/sneasel/cleffa
-cp chandelure6 houndoom1/crawdaunt/kirliachandelure                                                                                                  # скопировать содержимое файла chandelure6 в новый файл houndoom1/crawdaunt/kirliachandelure
-cp chandelure6 houndoom1/crawdaunt/zoroark/infernape                                                                                                 # скопировать файл chandelure6 в директорию houndoom1/crawdaunt/zoroark/infernape
-cp chandelure6 houndoom1/crawdaunt/zoroark/ampharoschandelure                                                                                        # скопировать содержимое файла chandelure6 в новый файл houndoom1/crawdaunt/zoroark/ampharoschandelure
-ln -s archeops4 Copy_34                                                                                                                              # создать символическую ссылку c именем Copy_34 на директорию archeops4 в каталоге lab0
-ln -s feraligatr6 houndoom1/crawdaunt/beedrillferaligatr                                                                                             # cоздать символическую ссылку для файла feraligatr6 с именем houndoom1/crawdaunt/beedrillferaligatr
-cp -r magmortar0 houndoom1/crawdaunt/zoroark/samurott                                                                                                # скопировать рекурсивно директорию magmortar0 в директорию houndoom1/crawdaunt/zoroark/samurott
-cat archeops4/charizard magmortar0/spheal/venipede/samurott houndoom1/crawdaunt/zoroark/ampharos magmortar0/spheal/horsea/darmanitan >feraligatr6_61 # объеденить содержимое файлов archeops4/charizard, magmortar0/spheal/venipede/samurott, houndoom1/crawdaunt/zoroark/ampharos, magmortar0/spheal/horsea/darmanitan, в новый файл feraligatr6_61
-ln feraligatr6 houndoom1/crawdaunt/zoroark/purrloinferaligatr                                                                                        # cоздать жесткую ссылку для файла feraligatr6 с именем houndoom1/crawdaunt/zoroark/purrloinferaligatr
-ln -s archeops4 Copy_89                                                                                                                              # создать символическую ссылку c именем Copy_89 на директорию archeops4 в каталоге lab0
-ln feraligatr6 houndoom1/stunkyferaligatr                                                                                                            # cоздать жесткую ссылку для файла feraligatr6 с именем houndoom1/stunkyferaligatr
-ln -s feraligatr6 archeops4/sandshrew/exploud/wailmerferaligatr                                                                                      # cоздать символическую ссылку для файла feraligatr6 с именем archeops4/sandshrew/exploud/wailmerferaligatr
-cat archeops4/sandshrew/magmortar magmortar0/spheal/pineco houndoom1/crawdaunt/zoroark/purrloin magmortar0/spheal/lotad/cyndaquil >jolteon4_11       # объеденить содержимое файлов archeops4/sandshrew/magmortar, magmortar0/spheal/pineco, houndoom1/crawdaunt/zoroark/purrloin, magmortar0/spheal/lotad/cyndaquil, в новый файл jolteon4_11
-cat magmortar0/spheal/lotad/gallade houndoom1/crawdaunt/kirlia houndoom1/crawdaunt/sudowoodo/crawdaunt houndoom1/stunky >jolteon4_30                 # объеденить содержимое файлов magmortar0/spheal/lotad/gallade, houndoom1/crawdaunt/kirlia, houndoom1/crawdaunt/sudowoodo/crawdaunt, houndoom1/stunky, в новый файл jolteon4_30
-rm -rf houndoom1/stunkyferaligatr && cp feraligatr6 houndoom1/stunkyferaligatr                                                                       # скопировать содержимое файла feraligatr6 в новый файл houndoom1/stunkyferaligatr
-cp feraligatr6 houndoom1/crawdaunt/whiscash/xatu                                                                                                     # скопировать файл feraligatr6 в директорию houndoom1/crawdaunt/whiscash/xatu
-cp -r houndoom1 /tmp && cp -r /tmp/houndoom1 houndoom1/hippopotas/octillery/tirtouga                                                                                              # скопировать рекурсивно директорию houndoom1 в директорию houndoom1/hippopotas/octillery/tirtouga
-ln -s magmortar0 Copy_53                                                                                                                             # создать символическую ссылку c именем Copy_53 на директорию magmortar0 в каталоге lab0
-# !/bin/bash
-cd /home/studs/s466140/lab0
-wc -l magmortar0/* 2>/dev/null | grep -v 'total' >/tmp/line_counts.txt # Подсчитать количество строк содержимого файлов в директории magmortar0, результат записать в файл в директории /tmp, подавить вывод ошибок доступа
-ls -laR . | grep 'ru' 2>/dev/null | sort -r | tail -n 4 # Вывести четыре последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0, содержащих строку "ru", список отсортировать по имени z->a, подавить вывод ошибок доступа
-grep -i "po" houndoom1/* 2>/dev/null # Вывести содержимое файлов в директории houndoom1, оставить только строки, содержащие "po", регистр символов игнорировать, подавить вывод ошибок доступа
-ls -l archeops4 2>&1 | sort -k2,2nr # Вывести список имен и атрибутов файлов в директории archeops4, список отсортировать по убыванию количества жестких ссылок, добавить вывод ошибок доступа в стандартный поток вывода
-wc -m pineco gallade gengar cyndaquil arbok darmanitan lickitung samurott donphan whirlpede 2>&1 | sort -n # Подсчитать количествnо символов содержимого файлов: pineco, gallade, gengar, cyndaquil, arbok, darmanitan, lickitung, samurott, donphan, whirlpede, отсортировать вывод по увеличению количества, добавить вывод ошибок доступа в стандартный поток вывода
-ls -lt ./m* | tail -n 4 # Вывести четыре последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0, начинающихся на символ 'm', список отсортировать по убыванию даты изменения записи о файле, ошибки доступа не подавлять и не перенаправлять
-ls -ltu $(grep -rl "tu" .) # Вывести рекурсивно список имен и атрибутов файлов в директории lab0, содержащих строку "tu", список отсортировать по убыванию даты доступа к файлу, ошибки доступа не подавлять и не перенаправлять
-cat ./*w 2>a | sort # Рекурсивно вывести содержимое файлов с номерами строк из директории lab0, имя которых заканчивается на 'w', строки отсортировать по имени z- добавить вывод ошибок доступа в стандартный поток вывода >a,
-ls -lR . | grep '^d' | sort -k2,2nr # Вывести рекурсивно список имен и атрибутов файлов в директории lab0, начинающихся на символ 'd', список отсортировать по убыванию количества жестких ссылок, ошибки доступа не подавлять и не перенаправлять
-ls -laR lab0 | grep 'un' 2>/tmp/errors.log | sort -k6,7 # Вывести рекурсивно список имен и атрибутов файлов в директории lab0, содержащих строку "un", список отсортировать по возрастанию даты изменения записи о файле, ошибки доступа перенаправить в файл в директории /tmp
-ls -ltR ./*t | tail -n 3 # Вывести три последних элемента рекурсивного списка имен и атрибутов файлов в директории lab0, заканчивающихся на символ 't', список отсортировать по убыванию даты модификации файла, ошибки доступа не подавлять и не перенаправлять
-grep -n -v "Ven" camerupt weezing torchic dustox hippowdon pineco gallade gengar cyndaquil arbok 2>> /tmp/errors.log # Вывести содержимое файлов: camerupt, weezing, torchic, dustox, hippowdon, pineco, gallade, gengar, cyndaquil, arbok с номерами строк, исключить строки, содержащие "Ven", ошибки доступа перенаправить в файл в директории /tmp
-grep -v "y$" chandelure6 # Вывести содержимое файла chandelure6, исключить строки, заканчивающиеся на 'y', ошибки доступа не подавлять и не перенаправлять
-cat lab0/b* 2>/dev/null | sort # Рекурсивно вывести содержимое файлов с номерами строк из директории lab0, имя которых начинается на 'b', строки отсортировать по имени a- подавить вывод ошибок доступа >z,
-grep -i -n 'ght' -v magmortar houndoom wailmer shelmet onix 2>/dev/null # Вывести содержимое файлов: magmortar, houndoom, wailmer, shelmet, onix с номерами строк, исключить строки, содержащие "ght", регистр символов игнорировать, подавить вывод ошибок доступа
-grep -i -n -v 'E$' archeops4/* 2>&1 # Вывести содержимое файлов с номерами строк в директории archeops4, исключить строки, заканчивающиеся на 'E', регистр символов игнорировать, добавить вывод ошибок доступа в стандартный поток вывода
-ls -lR . | grep -i 'h$' 2>/tmp/errors.log | sort -k2,2nr | tail -n 2 # Вывести два первых элемента рекурсивного списка имен и атрибутов файлов в директории lab0, заканчивающихся на символ 'h', список отсортировать по убыванию количества жестких ссылок, ошибки доступа перенаправить в файл в директории /tmp
-cat houndoom1/* 2> z | sort # Вывести содержимое файлов в директории houndoom1, строки отсортировать по имени a- подавить вывод ошибок доступа >z,
-ls -l $(grep -rl 'un' lab0) 2>/tmp/errors.log | sort -k6,7 # Вывести рекурсивно список имен и атрибутов файлов в директории lab0, содержащих строку "un", список отсортировать по возрастанию даты изменения записи о файле, ошибки доступа перенаправить в файл в директории /tmp
+cd /home/studs/s466140/lab
+cp chandelure6 magmortar0/spheal                                                                                                                     
+ln jolteon4 archeops4/sandshrew/exploud/shelmetjolteon                                                                                               
+ln -s jolteon4 houndoom1/hippopotas/camerupt/remoraidjolteon                                                                                         
+cp -r archeops4 magmortar0/lileep/sneasel/cleffa                                                                                                     
+cp chandelure6 houndoom1/crawdaunt/kirliachandelure                                                                                                  
+cp chandelure6 houndoom1/crawdaunt/zoroark/infernape                                                                                                 
+cp chandelure6 houndoom1/crawdaunt/zoroark/ampharoschandelure                                                                                        
+ln -s archeops4 Copy_34                                                                                                                              
+ln -s feraligatr6 houndoom1/crawdaunt/beedrillferaligatr                                                                                             
+cp -r magmortar0 houndoom1/crawdaunt/zoroark/samurott                                                                                                
+cat archeops4/charizard magmortar0/spheal/venipede/samurott houndoom1/crawdaunt/zoroark/ampharos magmortar0/spheal/horsea/darmanitan >feraligatr6_61 
+ln feraligatr6 houndoom1/crawdaunt/zoroark/purrloinferaligatr                                                                                        
+ln -s archeops4 Copy_89                                                                                                                              
+ln feraligatr6 houndoom1/stunkyferaligatr                                                                                                            
+ln -s feraligatr6 archeops4/sandshrew/exploud/wailmerferaligatr                                                                                      
+cat archeops4/sandshrew/magmortar magmortar0/spheal/pineco houndoom1/crawdaunt/zoroark/purrloin magmortar0/spheal/lotad/cyndaquil >jolteon4_11       
+cat magmortar0/spheal/lotad/gallade houndoom1/crawdaunt/kirlia houndoom1/crawdaunt/sudowoodo/crawdaunt houndoom1/stunky >jolteon4_30                 
+rm -rf houndoom1/stunkyferaligatr && cp feraligatr6 houndoom1/stunkyferaligatr                                                                       
+cp feraligatr6 houndoom1/crawdaunt/whiscash/xatu                                                                                                     
+cp -r houndoom1 /tmp && cp -r /tmp/houndoom1 houndoom1/hippopotas/octillery/tirtouga                                                                                              
+ln -s magmortar0 Copy_53                                                                                                                             
+cd /home/studs/s466140/lab
+wc -l magmortar0/* 2>/dev/null | grep -v 'total' >/tmp/line_counts.txt 
+ls -laR . | grep 'ru' 2>/dev/null | sort -r | tail -n 4 
+grep -i "po" houndoom1/* 2>/dev/null 
+ls -l archeops4 2>&1 | sort -k2,2nr 
+wc -m pineco gallade gengar cyndaquil arbok darmanitan lickitung samurott donphan whirlpede 2>&1 | sort -n 
+ls -lt ./m* | tail -n 4 
+ls -ltu $(grep -rl "tu" .) 
+cat ./*w 2>a | sort 
+ls -lR . | grep '^d' | sort -k2,2nr 
+ls -laR lab0 | grep 'un' 2>/tmp/errors.log | sort -k6,7 
+ls -ltR ./*t | tail -n 3 
+grep -n -v "Ven" camerupt weezing torchic dustox hippowdon pineco gallade gengar cyndaquil arbok 2>> /tmp/errors.log 
+grep -v "y$" chandelure6 
+cat lab0/b* 2>/dev/null | sort 
+grep -i -n 'ght' -v magmortar houndoom wailmer shelmet onix 2>/dev/null 
+grep -i -n -v 'E$' archeops4/* 2>&1 
+ls -lR . | grep -i 'h$' 2>/tmp/errors.log | sort -k2,2nr | tail -n 2 
+cat houndoom1/* 2> z | sort 
+ls -l $(grep -rl 'un' lab0) 2>/tmp/errors.log | sort -k6,7 
 chmod 006 magmortar0/venipede/cottonee/hippowdon
 chmod 664 magmortar0/spheal/venipede/whirlpede
 chmod 622 magmortar0/spheal/venipede/samurott
